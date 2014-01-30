@@ -1,0 +1,117 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Sadhguru's Videos</title>
+    <STYLE type="text/css">
+
+DIV[class="Sect"] {
+ text-align:left; 
+ margin-top:0px; 
+ margin-right:0px; 
+ text-indent:0px; 
+ direction:ltr
+}
+H2 {
+ text-align:center; 
+ margin-bottom:0px; 
+ margin-top:5px; 
+ margin-right:0px; 
+ text-indent:0px; 
+ direction:ltr
+}
+P[class="image"]
+{
+ text-align:center; 
+ margin-top:2%;
+ margin-right:0px; 
+ text-indent:0px;
+}
+body {
+  min-width: 480px; 
+  height: 600px;
+  max-width: 100%;
+  position: relative; margin:0;
+  vertical-align:middle;
+         }
+#search
+{
+	float: left;
+}
+
+
+
+#search
+{
+	padding: 3px 3px;
+	width: 260px;
+	border: 1px solid #f36f21;
+	font: normal 13px 'trebuchet MS', arial, helvetica;
+
+	
+	-moz-border-radius: 50px 3px 3px 50px;
+	 border-radius: 50px 3px 3px 50px;
+	 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+
+</style>
+
+
+<base target="_blank">
+
+</head>
+<body>
+<body bgcolor="#FFF"> 
+<table class="body-wrap"> 
+		<tr> 
+			<td class="container"> 
+				<div class="content"> 
+					<div id="pattern" class="pattern" style="float: left; text-align: left;"> 
+						<!-- Search -->
+						<form id="searchbox" action="http://www.youtube.com/user/sadhguru/search" method="get" class="f" target="_blank"> 
+							<input id="search" type="search" name="query" maxlength="120" placeholder="Search Sadhguru's Videos" /> 
+						</form>
+					</div>
+					<div id="logo" style="float: right;">
+						<a href="popup.html" target="_self"><img src="images/blog.png" height=24 alt="Isha Blog" style="padding-left:7px"/></a>
+                        <img alt="Sadhguru on YouTube" src="images/youtube_ul.png" height=24 style="padding-left:7px" />
+						<a href="Quotes.html" target="_self"><img alt="Sadhguru's Daily Quotes" src="images/sadhguru.png" height=24 style="padding-left:7px"/></a>
+						<a href="soi.html" target="_self"><img alt="Sounds of Isha" src="images/soi.png" height=24 style="padding-left:7px"/></a>
+					</div>					
+				</div> 
+			</td>
+		</tr> 
+	</table> 
+
+    <h2>Sadhguru's Youtube Channel</h2>
+	<iframe id="player" src="http://www.youtube.com/embed/?listType=user_uploads&list=sadhguru&showinfo=0?enablejsapi=1&html5=1" 
+    style="position:relative; height:45%; width:100%; border:0;"></iframe>
+  	<DIV style="height:45%;">
+    <P class="image"><img src="kolam.png" alt="kolam"/></P>
+  
+	<iframe src="http://www.youtube.com/subscribe_widget?p=Sadhguru" 
+       style="overflow: hidden; height: 150px; width: 220px; border: 0;" 
+       scrolling="no" frameBorder="0">
+    </iframe>
+	    <iframe src="http://www.youtube.com/subscribe_widget?p=ishafoundation" 
+       style="overflow: hidden; height: 150px; width: 220px; border: 0; float: right;" 
+       scrolling="no" frameBorder="0">
+    </iframe>
+
+
+    <script type="text/javascript">
+    //Load YouTube player API asynchronously.
+    var tag = document.createElement('script');
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    // Attach object to player IFrame.
+    function onYouTubeIframeAPIReady(){
+    player = new YT.Player('player');
+    }
+
+    </script>
+    </body>
+    </html>

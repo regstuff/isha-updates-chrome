@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+DIV[class="Sect"] {
+ text-align:left; 
+ margin-top:0px; 
+ margin-right:0px; 
+ text-indent:0px; 
+ direction:ltr
+}
+P[class="image"]
+{
+ text-align:center; 
+ margin-bottom:0px; 
+ margin-top:0px; 
+ margin-right:0px; 
+ text-indent:0px;
+}
+H2 {
+ text-align:center; 
+ margin-bottom:0px; 
+ margin-top:5px; 
+ margin-right:0px; 
+ text-indent:0px; 
+ direction:ltr
+}
+H3 {
+ text-align:left;
+ margin-bottom:0px; 
+ margin-top:8px; 
+ margin-right:0px; 
+ text-indent:0px; 
+ direction:ltr
+}
+body {
+  min-width: 480px; 
+  height: 600px;
+  max-width: 100%;
+  position: relative; margin:0;
+  vertical-align:middle;
+         }
+#search
+{
+	float: left;
+}
+
+
+
+#search
+{
+	padding: 3px 3px;
+	width: 260px;
+	border: 1px solid #f36f21;
+	font: normal 13px 'trebuchet MS', arial, helvetica;
+	-moz-border-radius: 50px 3px 3px 50px;
+	 border-radius: 50px 3px 3px 50px;
+	 -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	 box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+}
+
+#blogfeed h3 a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#cc5623;
+}
+#blogfeed h3{
+		padding-bottom:5px;
+}
+
+#blogfeed{
+	 padding:50px;
+	 font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	color:#585858;
+	padding-left: 25px;
+    padding-right: 25px;
+    width: 420px;
+}
+
+#blogfeed h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:31px;
+	color:#585858;
+}

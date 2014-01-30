@@ -1,0 +1,27 @@
+{
+  "name": "Isha Updates",
+  "manifest_version": 2,
+  "version": "1.0.9",
+
+  "description": "Keep up with the latest from the Isha Blog, and Sadhguru's videos & daily quotes while listening to Sounds of Isha!",
+  "icons": { "16" : "images/icon.png",
+ 			"48" : "images/48.png",
+			"128" : "images/128.png"},
+  "homepage_url": "http://blog.ishafoundation.org/",
+  "options_page": "options.html",
+  "background": { "page": "background.html"},
+	"permissions": ["tabs",
+	   "https://*/* ",
+       "http://*/*",
+	   "notifications"
+	],
+	"browser_action": {
+    "default_icon": "images/icon.png", 
+    "default_title": "Isha Updates",      
+    "default_popup": "popup.html"       
+  },
+"content_security_policy": "script-src 'self' https://www.google.com; object-src 'self'",
+  "web_accessible_resources": [
+    "48.png"
+  ]
+}

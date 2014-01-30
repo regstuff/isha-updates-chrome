@@ -1,0 +1,37 @@
+<!--
+  Copyright (c) 2012 The Chromium Authors. All rights reserved.
+  Use of this source code is governed by a BSD-style license that can be
+  found in the LICENSE file.
+
+  Brian Kennish <bkennish@chromium.org>
+
+  An option page for configuring notifications.
+-->
+<!doctype html>
+<html>
+  <head>
+    <title>Isha Updates Options</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="options.js"></script>
+  </head>
+  <body>
+    <img src="images/64.png" alt="Isha">
+	<h1>
+    Isha Updates Options
+    </h1>
+    <form id="options">
+      <input type="checkbox" name="isActivated" checked>
+      Display an Isha Kriya reminder every
+      <select name="frequency">
+        <option>30</option>
+        <option>60</option>
+        <option>120</option>
+      </select>
+      minutes
+	  <br><input type="checkbox" name="autodismiss" checked>
+      Automatically dismiss Isha Kriya reminders in 10 seconds
+	  <br><input type="checkbox" name="blogupdates" checked>
+      Enable new post alerts from the Isha Blog
+    </form>
+  </body>
+</html>
