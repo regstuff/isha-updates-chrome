@@ -9,4 +9,4 @@ The extension can also be configured to give you desktop popup reminders for you
 
 More details at: http://blog.ishafoundation.org/inside-isha/announcements/isha-updates-browser-extension-addon
 
-Firefox extension dev page at: Chrome extension dev page at: http://regstuff.github.io/isha-updates-chrome/
+Firefox extension dev page at: Chrome extension dev page at: http://regstuff.github.io/isha-updates-firefox/
